@@ -1,5 +1,5 @@
 # some short-cuts / aliases
-alias ll='ls -la'
+alias ll='ls -lah'
 
 # define prompt
 PS1='\nPERSO: [\D{%Y/%m/%d %H:%M:%S}] [$(pwd)]\n  [\s] \u@LDEV > '
