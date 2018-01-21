@@ -2,7 +2,7 @@
 alias ll='ls -la'
 
 # define prompt
-PS1='\nPERSO: [\D{%Y/%m/%d %H:%M:%S}] [$(pwd)]\n  [\s] \u@LDEV > '
+PS1='\nPERSO: [\D{%Y/%m/%d %H:%M:%S}] [$(pwd)]\n  [\s] \u@\H > '
 
 
 # Smart umask
@@ -16,7 +16,7 @@ umask 027
 # export PATH=...
 export HISTTIMEFORMAT='%F %T '
 export LANG=C
-export PATH="${HOME}/tools/rv_bash:${PATH}"
+export PATH="${HOME}/tools/rv_bash:${HOME}/xccc/tools:${PATH}"
 export TMP=$HOME/tmp
 
 
