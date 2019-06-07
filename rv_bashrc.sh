@@ -16,7 +16,7 @@ umask 027
 # export PATH=...
 export HISTTIMEFORMAT='%F %T '
 export LANG=C
-export PATH="${HOME}/tools/rv_bash:${HOME}/xccc/tools:${PATH}"
+export PATH="${HOME}/tools/rv_bash:${HOME}/xccc/tools:${HOME}/xdev/tools:${PATH}"
 export TMP=$HOME/tmp
 
 
